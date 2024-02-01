@@ -1,18 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      background-color: black;
-      color: white; /* Set text color to white for better visibility */
-    }
-  </style>
-  <title>Sithum Kalhara</title>
+  <title>SIGMA-MD QR</title>
+  <link rel="icon" type="image/x-icon" href="https://telegra.ph/file/8570faeee56707342c483.png">
+  <link rel="stylesheet" href="./style-qr.css">
+    <meta property="og:image" content="https://telegra.ph/file/8570faeee56707342c483.png"/>
+    <meta property="og:title" content="SIGMA-MD QR"/>
+    <meta property="og:description" content="Introducing SIGMA-MD,SIGMA-MD is designed to bring a whole new level of excitement to your boring WhatsApp use."/>
+ 
 </head>
 <body>
-  <h1>Sithum Kalhara</h1>
-      <img class='tokenImage' src="https://sithu-md-030cb8fc40c1.herokuapp.com/" alt="" />
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+</head>
+ 
+  <!--  Thanks to frontendmentor.io for the challenge.  -->
+ 
+<body>
+  <div class="bg">
+    <h1>MAHER</h1>
+  </div>
+  <div class="nft">
+    <div class='main'>
+      <img class='tokenImage' src="https://sigma-temp-qr.onrender.com/" alt="" />
+      <h2>SIGMA-MD</h2>
+      <p class='description'>If You Don't see Qr Simply Wait few Seconds and Refresh Page</p>
+      <div class='tokenInfo'>
+        <div class="price">
+          <ins>♕</ins>
+          <p>MZ</p>
+        </div>
+        <div class="duration">
+          <ins>◷</ins>
+          <p>Scan within 8 sec</p>
+        </div>
+      </div>
+      <hr />
+      <div class='creator'>
+        <div class='wrapper'>
+          <img src="https://telegra.ph/file/99f8663d33b980389f2e6.jpg" alt="Creator" />
+        </div>
+        <p><ins>Created By</ins> Maher Zubair</p>
+      </div>
+    </div>
+  </div>
 </body>
+ 
+</html>
+<!-- partial -->
+ 
+</body>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    var socket = io();
+    socket.on("message", (data) => {
+      window.location.href = `/session`;
+    });
+  </script>
 </html>
